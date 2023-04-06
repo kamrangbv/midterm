@@ -1,0 +1,532 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.justifycenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 100%;
+    min-height: 700px;
+    float: left;
+    background-color: grey;
+    background-color: #252B42;
+}
+
+.navbar {
+    width: 100%;
+    min-height: 70px;
+    float: left;
+    /* background-color: red; */
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+    min-height: inherit;
+    float: left;
+    /* background-color: blue; */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+    margin-right: 41px;
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    min-width: 200px;
+    min-height: inherit;
+    float: left;
+    /* background-color: green; */
+}
+
+.menu ul {
+    float: left;
+}
+
+.menu ul li {
+    list-style-type: none;
+    float: left;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    padding: 0 21;
+
+}
+
+.info {
+    width: 300px;
+    min-height: inherit;
+    float: left;
+    /* background-color: black; */
+}
+
+.login {
+    float: left;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: right;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin: 7px;
+
+}
+
+.member {
+    float: left;
+    margin-left: 30px;
+    width: 214px;
+    height: 52px;
+    background: #23A6F0;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.vectors_back {
+    float: left;
+    background-image: url('../img/Vectors.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 244.29px;
+    height: 284.45px;
+}
+
+.left_block {
+    width: 509px;
+    height: 583px;
+    float: left;
+    /* background-color: grey; */
+
+
+}
+
+.h1_text {
+    float: left;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 120px;
+}
+
+.section2_span_text {
+    width: 376px;
+    height: 60px;
+
+    /* h4 */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+
+    letter-spacing: 0.2px;
+
+    /* light-text-color */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.section2_btn_left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 36px;
+    gap: 10px;
+
+    width: 185px;
+    height: 52px;
+    float: left;
+
+    /* primary-color */
+
+    background: #23A6F0;
+    border-radius: 37px;
+    margin: 0 5;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.btn_text {
+
+
+    /* btn-text */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    /* light-text-color */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.section2_btn_right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 36px;
+    gap: 10px;
+    float: left;
+
+    width: 185px;
+    height: 52px;
+
+    /* primary-color */
+    border-color: white;
+
+    border: 2px solid transparent;
+    border-radius: 37px;
+    background-color: transparent;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.right_block {
+    width: 485.1px;
+    height: 520.66px;
+    float: left;
+    /* background-color: grey; */
+    background-image: url('../img/Vectork.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 70px;
+}
+
+.iphone_img {
+    width: 471px;
+    height: 583px;
+    float: left;
+    background-image: url('../img/iphone-12--product-red 2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    bottom: 45px;
+}
+
+.placeholder_img {
+    width: 451px;
+    height: 542px;
+    float: left;
+    background-image: url('../img/placeholder.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 41px;
+    top: 21px;
+
+}
+
+.section3 {
+    margin-top: 150px;
+    width: 100%;
+    height: 150px;
+    float: left;
+    /* background-color: grey; */
+}
+
+.h2_text {
+    width: 435px;
+    height: 114px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    /* or 142% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    /* light-text-color */
+
+    color: #FFFFFF;
+    float: left;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.span_text {
+    width: 100%;
+    float: left;
+    height: 50px;
+    /* background-color: green; */
+
+}
+
+.section3_span_on_header {
+    width: 470px;
+    height: 40px;
+
+    /* paragraph */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    /* second-text-color */
+
+    color: #737373;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.section4 {
+    width: 100%;
+    min-height: 450px;
+    float: left;
+    /* background-color: grey; */
+    position: relative;
+}
+
+.first_square {
+    width: 328px;
+    height: 140px;
+    float: left;
+    /* background-color: blue; */
+    
+    top: 50;
+    left: 150;
+    position: relative;
+}
+
+.second_square {
+    width: 328px;
+    height: 140px;
+    float: left;
+    /* background-color: blue; */
+    position: absolute;
+    top: 50;
+    left: 550;
+}
+
+.square3 {
+    width: 328px;
+    height: 140px;
+    float: left;
+    /* background-color: blue; */
+    position: absolute;
+    top: 50;
+    left: 950;
+}
+
+.square4 {
+    width: 328px;
+    height: 140px;
+    float: left;
+    /* background-color: blue; */
+    position: absolute;
+    top: 250;
+    left: 150;
+}
+
+.square5 {
+    width: 328px;
+    height: 140px;
+    float: left;
+    /* background-color: blue; */
+    position: absolute;
+    top: 250;
+    left: 550;
+}
+
+.square6 {
+    width: 328px;
+    height: 140px;
+    float: left;
+    /* background-color: blue; */
+    position: absolute;
+    top: 250;
+    left: 950;
+}
+.header5{
+    width: inherit;
+    height: inherit;
+    float: left;
+}
+
+.h5_text {
+    width: 161px;
+    height: 24px;
+
+    /* h5 */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+    letter-spacing: 0.1px;
+    padding: 10px;
+
+    /* light-text-color */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.square_text{
+    width: 213px;
+height: 40px;
+
+/* paragraph */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+letter-spacing: 0.2px;
+
+/* light-text-color */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.allsquare{
+    border: 1px solid white ;
+}
+
+.photo{
+    float: left;
+}
+
+.section4_span_on_header{
+    width: 470px;
+height: 40px;
+
+/* paragraph */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+text-align: center;
+letter-spacing: 0.2px;
+
+/* light-text-color */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.last_section{
+    width: 100%;
+    height: 700px;
+    float: left;
+    /* background-color: grey; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.white_back{
+    width: 700px;
+    height: 300px;
+    float: left;
+    background-color: white;
+    position: absolute;
+}
+ 
